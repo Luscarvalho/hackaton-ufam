@@ -1,6 +1,6 @@
 export default function SideContent() {
   return (
-    <aside className="text-off-white w-2/5 flex flex-col gap-5 p-5 bg-very-dark-blue">
+    <aside className="text-off-white flex flex-col gap-5 p-5 bg-very-dark-blue">
       <h1 className="text-3xl font-bold text-soft-orange">New</h1>
       <div>
         <a className="font-bold hover:text-soft-orange" href="#">
