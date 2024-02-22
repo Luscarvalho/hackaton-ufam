@@ -11,7 +11,7 @@ export default function PrincipalContent() {
                 <div className="w-1/2 flex flex-col gap-5">
                     <p> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?s</p>
                     <div>
-                        <a className="p-2 ps-6 pe-6 bg-black text-white">READ MORE</a>
+                        <a className="p-2 ps-6 pe-6 text-off-white bg-very-dark-blue hover:bg-soft-red">READ MORE</a>
                     </div>
                 </div>
             </div>
