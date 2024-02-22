@@ -4,7 +4,7 @@ export default function PrincipalContent() {
     return (
         <>
             <div className="flex flex-wrap">
-                <img className="" src={PrincipalImg} alt="imagen principal" />
+                <img className="mb-7" src={PrincipalImg} alt="imagen principal" />
                 <div className="w-1/2">
                     <h1 className="font-bold text-3xl">The Bright Future of Web 3.0?</h1>
                 </div>
