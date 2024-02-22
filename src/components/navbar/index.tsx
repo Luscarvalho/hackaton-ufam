@@ -2,7 +2,7 @@ import LogoImage from "../../assets/images/logo.svg";
 
 export default function NavBar() {
   return (
-    <nav className="flex justify-between items-center bg-slate-200 col-span-3">
+    <nav className="flex justify-between items-center bg-slate-200 col-span-3 mb-5 mt-10">
       <img src={LogoImage} alt="Logo" />
       <ul className="flex gap-5">
         <a href="#" className="hover:text-soft-red">
