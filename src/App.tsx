@@ -5,9 +5,9 @@ import SideContent from "./components/side-content";
 
 function App() {
   return (
-    <div className="w-3/5 m-auto grid grid-cols-3 gap-5">
+    <div className="w-3/5 m-auto grid grid-cols-3 gap-5 mobile:flex flex-col mobile:w-4/5">
       <NavBar />
-      <div className="grid grid-cols-3 col-span-3 gap-5 mb-16">
+      <div className="grid grid-cols-3 col-span-3 gap-5 mb-16 mobile:flex flex-col">
         <PrincipalContent />
         <SideContent />
       </div>

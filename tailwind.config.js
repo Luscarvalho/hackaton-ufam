@@ -2,6 +2,10 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      mobile: { max: "900px" },
+      desktop: { max: "1440px" },
+    },
     colors: {
       "soft-orange": "hsl(35, 77%, 62%)",
       "soft-red": "hsl(5, 85%, 63%)",
